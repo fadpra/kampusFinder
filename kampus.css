@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+:root {
+    --cyan : #588B8B;
+    --white : #FFFFFF;
+    --cream : #FFD5C2;
+    --tangerine : #F28F3B;
+    --reddish : #C8553D;
+}
+
+body {
+    font-family: arial;
+    background-color: var(--white);
+}
+
+#header {
+    padding: 5px;
+    background-color: var(--reddish);
+    color: var(--white);
+    box-shadow: 1px 2px 1px 2px rgba(0,0,0,.3);
+    margin-bottom: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: grid;
+    justify-content: space-evenly;
+}
+
+#header a {
+    font-family: "Yeseva One";
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.25s ease-in-out;
+}
+
+#header a:hover {
+    opacity: 0.4;
+}
+
+#header span{
+    font-family: "Josefin Sans";
+    font-weight: 400;
+}
+
+#kampusProfile {
+    background-color: var(--cream);
+    width: 60%;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#kampusBanner {
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.kampusObj1,.kampusObj2 {
+    background-color: aquamarine;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#namaLogoDesc {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+#kampusLogo {
+    width:150px;
+    height:150px;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#kampusNama {
+    font-family: "Yeseva One";
+    font-size: 50px;
+    text-align: right;
+    background-color: aqua transparent;
+    padding: 5px 0px 5px 0px;
+}
+
+#deskripsi {
+    background-color: transparent;
+}
+
+#deskripsi h3 {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    text-align: justify;
+}
+
+#profilSingkat {
+    background-color: var(--cyan);
+}
+
+#penerimaan {
+    background-color: var(--tangerine);
+}
+
+#fakultas {
+    background-color: var(--reddish);
+}
+
+#biaya {
+    background-color: var(--cyan);
+}
+
+.kampusObj2 h2 {
+    font-family: "Yeseva One";
+    text-align: center;
+    transition: 0.25s ease-in-out;
+    padding: 5px;
+}
+
+.kampusObj2 h2:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.psInfo {
+    display: none;
+}
+
+.info2 {
+    background-color: var(--white);
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.info3 {
+    background-color: skyblue transparent;
+}
+
+.info2 h3, .info3 h3 {
+    margin: 20px 0px 20px 0px;
+    font-weight: 350;
+    font-family: "Josefin Sans";
+}
+
+.displayPS {
+    padding: 20px;
+    background-color: #82bcbc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:start;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.info2Title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.pInfo {
+    display: none;
+    padding: 20px;
+    background-color: #fcaf6c;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.displayP {
+    display: block;
+    padding: 20px;
+    background-color: #fcaf6c;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fpsInfo {
+    background-color: #db7662;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    display: none;
+}
+
+.rumpun {
+    background-color:#ef8e7b transparent;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: 0.25s ease-in-out;   
+    height: fit-content;
+}
+
+.namaRumpun {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Yeseva One";
+}
+
+.fakultas {
+    background-color: var(--white);
+    padding: 10px;
+    font-family: "Josefin Sans";
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.namaFakultas {
+    text-align: center;
+}
+
+.listProdi {
+    font-weight: 350;
+    margin-bottom: 5px;
+} 
+
+.prodi {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.prodi h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.prodiInfo {
+    font-weight: 350;
+}
+
+.displayFPS {
+    display: block;
+}
+
+.info3Title {
+    font-weight: 450;
+}
+
+.bInfo {
+    background-color:#82bcbc;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+}
+
+.displayB {
+    display: block;
+}
+
+/* For responsive tablet*/
+
+@media only screen and (max-width:1050px){
+    #kampusProfile {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    #kampusLogo {
+        width: 100px;
+        height: 110px;
+    }
+    #kampusNama {
+        font-size: 30px;
+        text-align: right;
+    }
+    #kampusProfile {
+        border-radius: 0px;
+    }
+    .kampusObj2 {
+        width: 100%;
+        border-radius: 0px;
+        margin: 0;
+    }
+    .kampusObj2 h2 {
+        padding: 10px;
+    }
+    .info2 {
+        font-size: 15px;
+    }
+    #kampusBanner {
+        border-radius: 0px;
+    }
+    #biaya {
+        margin-bottom: -20px;
+    }
+    .displayFPS {
+        border-radius: 0;
+    }
+    .displayPS {
+        border-radius: 0;
+    }
+    .displayB {
+        border-radius: 0;
+    }
+    .displayP {
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .kampusObj2 h2 {
+        font-size: 20px;
+    }
+    #namaLogoDesc {
+        display: grid;
+    }
+    #kampusLogo {
+        width: 75px;
+        height: 80px;
+        margin: auto;
+        padding: 5px;
+    }
+    #kampusNama {
+        text-align: center;
+    }
+    .displayPS {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .psInfo div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .fpsInfo h3, .bInfo h3, .pInfo h3, .psInfo h3 {
+        font-size: 15px;
+    }
+}

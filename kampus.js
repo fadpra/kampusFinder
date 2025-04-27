@@ -481,140 +481,129 @@ const daftarKampus = [
       
         // ===== COMPLETE FACULTIES & PROGRAMS =====
         fakultasDanProdi: [
-            // ===== RUMPUN SAINS DAN TEKNOLOGI =====
-            {rumpun: "Sains dan Teknologi",
-              fakultas: [
-                // 1. Sekolah Teknik Elektro dan Informatika
-                {namaFakultas: "Sekolah Teknik Elektro dan Informatika (STEI)",
-                  prodi: [
-                    {namaProdi: "Teknik Informatika (IF)",
-                      deskripsi: "Pengembangan perangkat lunak cerdas dan sistem komputasi modern. Fokus pada AI, big data, dan keamanan siber.",
-                      nilaiSNBP: 97.5,
-                      nilaiSNBT: 845,
-                      dayaTampung: 120,
-                      pendaftar: 3200,
-                      keketatan: "3.75%"},
-
-                    {namaProdi: "Teknik Elektro (EL)",
-                      deskripsi: "Desain sistem elektronika, telekomunikasi, dan kontrol otomatis. Bermitra dengan industri teknologi terkemuka.",
-                      nilaiSNBP: 96.2,
-                      nilaiSNBT: 830,
-                      dayaTampung: 150,
-                      pendaftar: 2800,
-                      keketatan: "5.36%"}
-                  ]},
-        
-                // 2. Fakultas Matematika dan Ilmu Pengetahuan Alam
-                {namaFakultas: "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)",
-                  prodi: [
-                    {namaProdi: "Matematika (MA)",
-                      deskripsi: "Pengembangan teori matematika murni dan aplikasinya dalam industri. Konsentrasi pada modeling dan komputasi.",
-                      nilaiSNBP: 92.8,
-                      nilaiSNBT: 775,
-                      dayaTampung: 80,
-                      pendaftar: 900,
-                      keketatan: "8.89%"},
-
-                    {namaProdi: "Fisika (FI)",
-                      deskripsi: "Eksplorasi fenomena alam dengan eksperimen dan teori. Spesialisasi dalam fisika material dan instrumentasi.",
-                      nilaiSNBP: 91.5,
-                      nilaiSNBT: 760,
-                      dayaTampung: 70,
-                      pendaftar: 800,
-                      keketatan: "8.75%"}
-                  ]},
-        
-                // 3. Fakultas Teknik Mesin dan Dirgantara
-                {namaFakultas: "Fakultas Teknik Mesin dan Dirgantara (FTMD)",
-                  prodi: [
-                    {namaProdi: "Teknik Mesin (MS)",
-                      deskripsi: "Perancangan sistem mekanik untuk industri energi dan manufaktur. Fokus pada robotika dan otomasi.",
-                      nilaiSNBP: 95.8,
-                      nilaiSNBT: 820,
-                      dayaTampung: 160,
-                      pendaftar: 2500,
-                      keketatan: "6.40%"},
-
-                    {namaProdi: "Teknik Dirgantara (AE)",
-                      deskripsi: "Pengembangan teknologi pesawat terbang dan sistem antariksa. Satu-satunya program di Indonesia dengan wind tunnel.",
-                      nilaiSNBP: 96.0,
-                      nilaiSNBT: 825,
-                      dayaTampung: 75,
-                      pendaftar: 1300,
-                      keketatan: "5.77%"}
-                  ]},
-        
-                // 4. Fakultas Ilmu dan Teknologi Kebumian
-                {namaFakultas: "Fakultas Ilmu dan Teknologi Kebumian (FITB)",
-                  prodi: [
-                    {namaProdi: "Teknik Geologi (GL)",
-                      deskripsi: "Eksplorasi sumber daya mineral dan mitigasi bencana geologi. Laboratorium geologi terbesar di ASEAN.",
-                      nilaiSNBP: 93.5,
-                      nilaiSNBT: 790,
-                      dayaTampung: 85,
-                      pendaftar: 1200,
-                      keketatan: "7.08%"}
-                  ]},
-        
-                // 5. Fakultas Teknologi Industri
-                {namaFakultas: "Fakultas Teknologi Industri (FTI)",
-                  prodi: [
-                    {namaProdi: "Teknik Industri (TI)",
-                      deskripsi: "Optimasi sistem produksi dengan pendekatan teknik dan manajemen. Fokus pada logistik dan supply chain.",
-                      nilaiSNBP: 94.3,
-                      nilaiSNBT: 805,
-                      dayaTampung: 140,
-                      pendaftar: 2200,
-                      keketatan: "6.36%"}
-                  ]},
-        
-                // 6. Fakultas Teknik Sipil dan Lingkungan
-                {namaFakultas: "Fakultas Teknik Sipil dan Lingkungan (FTSL)",
-                  prodi: [
-                    {namaProdi: "Teknik Sipil (SI)",
-                      deskripsi: "Perancangan infrastruktur berkelanjutan dengan teknologi mutakhir. Laboratorium struktur terbesar di Indonesia.",
-                      nilaiSNBP: 93.8,
-                      nilaiSNBT: 800,
-                      dayaTampung: 150,
-                      pendaftar: 2300,
-                      keketatan: "6.52%"}
-                  ]}
-              ]
+            // ===== SCIENCE =====
+            {rumpun: "Sains",
+                fakultas: [
+                    {namaFakultas: "Matematika dan Ilmu Pengetahuan Alam (FMIPA)",
+                     prodi: [
+                        {namaProdi: "Matematika",
+                         deskripsi: "Program studi matematika murni dan terapan dengan penelitian di bidang aljabar, analisis, dan matematika industri.",
+                         nilaiSNBP: 96.2,
+                         nilaiSNBT: 835,
+                         dayaTampung: 90,
+                         pendaftar: 1200,
+                         keketatan: "7.5%"},
+                         
+                        {namaProdi: "Fisika",
+                         deskripsi: "Program unggulan dengan fokus fisika material, fisika teoretik, dan instrumentasi.",
+                         nilaiSNBP: 95.8,
+                         nilaiSNBT: 830,
+                         dayaTampung: 80,
+                         pendaftar: 1100,
+                         keketatan: "7.27%"},
+                            
+                        {namaProdi: "Astronomi",
+                         deskripsi: "Satu-satunya program astronomi di Indonesia dengan observatorium Bosscha.",
+                         nilaiSNBP: 94.5,
+                         nilaiSNBT: 820,
+                         dayaTampung: 50,
+                         pendaftar: 900,
+                         keketatan: "5.56%"}
+                        ]}
+                ]
             },
-        
-            // ===== RUMPUN SENI DAN DESAIN =====
+    
+            // ===== ENGINEERING =====
+            {rumpun: "Teknik",
+             fakultas: [
+                    {namaFakultas: "Sekolah Teknik Elektro dan Informatika (STEI)",
+                     prodi: [
+                        {namaProdi: "Teknik Elektro",
+                         deskripsi: "Konsentrasi pada sistem tenaga, telekomunikasi, dan kontrol.",
+                         nilaiSNBP: 98.3,
+                         nilaiSNBT: 855,
+                         dayaTampung: 150,
+                         pendaftar: 4500,
+                         keketatan: "3.33%"},
+                        
+                        {namaProdi: "Teknik Informatika",
+                         deskripsi: "Program paling kompetitif di ITB dengan fokus AI, sistem cerdas, dan komputasi.",
+                         nilaiSNBP: 99.1,
+                         nilaiSNBT: 865,
+                         dayaTampung: 120,
+                         pendaftar: 5200,
+                         keketatan: "2.31%"}
+                        ]},
+                    
+                    {namaFakultas: "Fakultas Teknik Sipil dan Lingkungan (FTSL)",
+                     prodi: [
+                            {namaProdi: "Teknik Sipil",
+                             deskripsi: "Program tertua di ITB dengan spesialisasi struktur, geoteknik, dan manajemen konstruksi.",
+                             nilaiSNBP: 97.5,
+                             nilaiSNBT: 850,
+                             dayaTampung: 180,
+                             pendaftar: 3800,
+                             keketatan: "4.74%"},
+                            
+                            {namaProdi: "Teknik Lingkungan",
+                             deskripsi: "Fokus pada pengelolaan lingkungan dan sumber daya air.",
+                             nilaiSNBP: 95.0,
+                             nilaiSNBT: 825,
+                             dayaTampung: 90,
+                             pendaftar: 1500,
+                             keketatan: "6.0%"}
+                        ]}
+                ]
+            },
+    
+            // ===== ART & DESIGN =====
             {rumpun: "Seni dan Desain",
-              fakultas: [
-                {namaFakultas: "Fakultas Seni Rupa dan Desain (FSRD)",
-                  prodi: [
-                    {namaProdi: "Desain Komunikasi Visual (DKV)",
-                      deskripsi: "Kreasi solusi visual untuk media digital dan cetak. Studio desin dilengkapi teknologi AR/VR.",
-                      nilaiSNBP: 92.0,
-                      nilaiSNBT: 770,
-                      dayaTampung: 80,
-                      pendaftar: 1500,
-                      keketatan: "5.33%"
-                    }
-                  ]},
-              ]
+                fakultas: [
+                    {namaFakultas: "Fakultas Seni Rupa dan Desain (FSRD)",
+                     prodi: [
+                            {namaProdi: "Desain Produk",
+                             deskripsi: "Kombinasi seni, teknologi, dan bisnis dalam perancangan produk.",
+                             nilaiSNBP: 93.7,
+                             nilaiSNBT: 815,
+                             dayaTampung: 60,
+                             pendaftar: 1100,
+                             keketatan: "5.45%"},
+                            
+                            {namaProdi: "Kriya",
+                             deskripsi: "Pengembangan kerajinan artistik berbasis material tradisional dan modern.",
+                             nilaiSNBP: 92.5,
+                             nilaiSNBT: 805,
+                             dayaTampung: 50,
+                             pendaftar: 900,
+                             keketatan: "5.56%"}
+                        ]}
+                ]
             },
-        
-            // ===== RUMPUN BISNIS DAN MANAJEMEN =====
-            {rumpun: "Bisnis dan Manajemen",
-              fakultas: [
-                {namaFakultas: "Sekolah Bisnis dan Manajemen (SBM)",
-                  prodi: [
-                    {namaProdi: "Manajemen (MB)",
-                      deskripsi: "Pengembangan strategi bisnis berbasis teknologi digital. Kurikulum berbasis studi kasus industri.",
-                      nilaiSNBP: 92.5,
-                      nilaiSNBT: 785,
-                      dayaTampung: 120,
-                      pendaftar: 1900,
-                      keketatan: "6.32%"}
-                  ]},
-              ]
+    
+            // ===== BUSINESS =====
+            {rumpun: "Bisnis",
+             fakultas: [
+                    {namaFakultas: "Sekolah Bisnis dan Manajemen (SBM)",
+                     prodi: [
+                            {namaProdi: "Manajemen",
+                             deskripsi: "Program bisnis dengan pendekatan teknologi dan kewirausahaan.",
+                             nilaiSNBP: 97.0,
+                             nilaiSNBT: 845,
+                             dayaTampung: 120,
+                             pendaftar: 3500,
+                             keketatan: "3.43%"},
+                            
+                            {namaProdi: "Kewirausahaan",
+                             deskripsi: "Program unggulan untuk pengembangan startup teknologi.",
+                             nilaiSNBP: 96.5,
+                             nilaiSNBT: 840,
+                             dayaTampung: 80,
+                             pendaftar: 2800,
+                             keketatan: "2.86%"}
+                        ]}
+                ]
             }
-          ],
+        ],
       
         // ===== GENERAL TUITION FEES =====
         biaya: {
